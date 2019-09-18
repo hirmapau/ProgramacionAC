@@ -1,20 +1,21 @@
-/* ********************* TEXTO SIN ACENTOS *********************/
+/*/* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
-// El operador ternario
+/*
+declaracion for
+*/
+
 
 #include <stdio.h>
 
 
-
 int main(){
+int i;
 
-int a, b;
-
-printf("\vescriba dos numeros separados por un espacio.\n\v");
-scanf("%i %i", &a, &b);
-
-a==b ? printf("a y b son iguales\n\v") : printf("\va y b son diferentes\n\v");//si la condicion es verdadera (?) se imprime lo primero, si no se cumple(:) se cumple lo segundo
+for(i=0; i<=5; i++)//i++ es lo mismo que i+1
+{
+printf("i= %i\n", i);// para cada digito de 1 a 5, imrimira los digitos
+}
 
 return 0;
 }
