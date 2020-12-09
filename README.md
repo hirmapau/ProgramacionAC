@@ -1,3 +1,2 @@
 # ProgramacionAC
-Repositorio especial de tareas en fes
-Tareas profesor orduz
+Tareas De la fac
